@@ -29,6 +29,10 @@ RUN composer install \
     --prefer-dist \
     --quiet
 
+RUN composer dump-autoload --classmap-authoritative
+
+RUN composer clear-cache
+
 COPY autoload_runtime.php /var/www/html/vendor
 
 # Expose port 9000
