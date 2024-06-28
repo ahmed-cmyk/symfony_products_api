@@ -25,13 +25,12 @@ cd <repository-name>
 2. **Build and Run Docker Containers**
 
 ```bash
-docker-compose up -d --build
+docker compose up -d --build
 ```
 
 3. **Install Dependencies and Setup Database**
 
 ```bash
-docker compose run app php composer install
 docker compose run app php bin/console doctrine:migrations:migrate --no-interaction
 ```
 
