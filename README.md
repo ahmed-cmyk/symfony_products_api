@@ -37,8 +37,10 @@ docker compose run app php bin/console doctrine:migrations:migrate --no-interact
 
 4. **Access the API**
 
-```bash
-docker compose run app ./vendor/bin/phpunit
+Visit the following URL on your machine:
+
+```
+http://localhost
 ```
 
 # API Documentation
