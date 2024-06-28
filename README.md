@@ -129,8 +129,8 @@ DELETE /api/products/{id}:
 ## Running Static Analysis
 
 ```bash
-docker-compose exec php-fpm ./vendor/bin/phpstan analyse
-docker-compose exec php-fpm ./vendor/bin/phpcs --standard=PSR12 src/
+docker compose run app ./vendor/bin/phpstan analyse
+docker compose run app php php-cs-fixer.phar fix
 ```
 
 ---
@@ -141,5 +141,6 @@ docker-compose exec php-fpm ./vendor/bin/phpcs --standard=PSR12 src/
 - Symfony 7 is acceptable for the creation of the API.
 - JWT tokens are generated and validated using Symfony's security components.
 - Basic CRUD operations on products are implemented with validation and error handling.
+- A User model is required. There were also some assumptions made regarding the structure of the User model.
 
 ---
