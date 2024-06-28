@@ -4,7 +4,7 @@
 The objective of this challenge is to evaluate proficiency in PHP Symfony development, Docker, and static code analysis within a time limit of 4 hours.
 
 ## Repository
-- **Code Repository**: [GitHub Repository Link](https://github.com/your-repository-link)
+- **Code Repository**: [GitHub Repository Link](https://github.com/ahmed-cmyk/symfony_products_api)
 
 ## Overview
 This project involves building a RESTful API using Symfony 5.4+, Dockerizing the application, and integrating static code analysis tools like PHPStan and PHP_CodeSniffer.
