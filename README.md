@@ -31,6 +31,7 @@ docker compose up -d --build
 3. **Install Dependencies and Setup Database**
 
 ```bash
+docker compose run app composer install
 docker compose run app php bin/console doctrine:migrations:migrate --no-interaction
 ```
 
