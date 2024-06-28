@@ -93,3 +93,5 @@ be9165,192.168.186.1,POST,http://localhost/api/registration,1719562855,,401,requ
 926a5f,192.168.186.1,POST,http://localhost/registration,1719562989,,201,request
 693b1d,192.168.186.1,POST,http://localhost/api/login_check,1719563008,,200,request
 65c4eb,192.168.186.1,GET,http://localhost/api/products,1719563023,,200,request
+044f1a,192.168.242.1,GET,http://localhost/,1719567817,,404,request
+0686de,192.168.242.1,GET,http://localhost/,1719567818,,404,request
